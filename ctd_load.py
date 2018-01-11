@@ -87,7 +87,7 @@ def feature(data,data_string):
             for i in range(1,4,1):
                 count=seqencode[k].count(i)
                 if count==0:
-                    for i in range(0,5,1):
+                    for j in range(0,5,1):
                         temp.append(0)
                 else:
                     onequarter=int(count/4) #25%位置
